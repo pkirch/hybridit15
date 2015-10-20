@@ -57,7 +57,7 @@ eigene Zertifikate erstellen.
 
 **Befehlszeilen für makezert:**  
 Stammzertifikat  
-makecert -sky exchange -r -n "CN=IT Camp Hybrid IT - P2S-Root" -pe -a sha1 -len 2048 -ss My
+makecert -sky exchange -r -n "CN=IT Camp Hybrid IT - P2S-Root" -pe -a sha1 -len 2048 -ss My
 
 Client-Zertifikat  
 makecert.exe -n "CN=IT Camp Hybrid IT - Client" -pe -sky exchange -m 96 -ss My -in "IT Camp Hybrid IT - P2S-Root" -is my -a sha1

@@ -14,7 +14,7 @@ Präsentation verfügbar auf GitHub und Docs.
 3. Mit ARM Beispielumgebung erstellen
 
 ## Hands-On
-### Am Portal anmelden und umschauen
+### Ü1: Am Portal anmelden und umschauen
 
 Fakultativ. Empfohlen.
 
@@ -22,7 +22,7 @@ Adressen: http://manage.windowsazure.com oder http://portal.azure.com
 
 Die Verwaltungsportale von Azure öffnen und mit der Navigation vertraut machen.
 
-### ARM-Template deployen
+### Ü2: ARM-Template deployen
 Obligatorisch.
 
 Diese Beispielumgebung kann für spätere Übungen verwendet werden. Z.B.
@@ -37,17 +37,17 @@ Das ARM-Template hat folgende Parameter:
 
 Im ersten Schritt des Deployments mittels ARM-Template kann das Template angesehen und bearbeitet werden.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdemoenv.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fpkirch%2Fhybridit15%2Fmaster%2FModul1%2Fdemoenv.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fdemoenv.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpkirch%2Fhybridit15%2Fmaster%2FModul1%2Fdemoenv.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
 Das Deployment kann einige Zeit in Anspruch nehmen. Für diese Übung warten wir nicht auf 
 die Fertigstellung.
 
-### Extra-Übung: Manuelle Erstellung von Ressourcen in beiden Portalen
+### Ü3: Extra-Übung: Manuelle Erstellung von Ressourcen in beiden Portalen
 Fakultativ. Empfohlen.
 
 Erfahren, wie sich beide Portale in Verwendung und Funktionalität unterscheiden.  
@@ -62,7 +62,7 @@ Für beide VMs wird empfohlen als Vorlage "Windows Server 2012 R2" auszuwählen.
 * Welche VMs sind aus welchem Portal heraus sichtbar?
 * Welche Ressourcen wurden im Zuge der VM-Erstellung ebenfalls erstellt?
 
-### Extra-Übung: Classic VM per PowerShell (ASM)
+### Ü4: Extra-Übung: Classic VM per PowerShell (ASM)
 Fakultativ. Diese Übung benötigt PowerShell für Azure. (Ist auf den Teilnehmer-Laptops vorinstalliert.)
 
 1. Bereitgestelltes Skript herunterladen und studieren.
