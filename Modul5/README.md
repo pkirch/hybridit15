@@ -11,27 +11,28 @@
 
 ## Hands-On
 
-Empfohlene Auswahl:
-* Sicherung einer VM in Azure und die Wiederherstellung dieser.
-* Sicherung einer beliebigen VM in Azure und die Wiederherstellung dieser.
-
 Desaster Recovery kann derzeit leider nicht mit der simulierten On-Prem-Umgebung nachgestellt werden.
 
-### Vorbereitung: Azure Backup einrichten.
+### Ü1: Vorbereitung: Azure Backup einrichten.
+Zeitaufwand ca. 5 min.
 
-Azure Backup Vault erstellen.
+Azure Backup Vault erstellen.  
+Konfigurieren der Redundanz der gespeicherten Daten.
 
-### Sicherung einer VM in Azure
+### Ü2: Sicherung einer VM in Azure
+Zeitaufwand ca. 5 min.
 
+### Ü3: Wiederherstellung einer VM in Azure
+Zeitaufwand ca. 5 min.
 
-### Sicherung einer beliebigen Maschine
+### Ü4: Extra-Übung: Sicherung einer beliebigen Maschine
+Zeitaufwand ca. 10 - 15 min.
 
+Installation des Backup Agents.  
+Erstellen eines Backupplans.
 
-### Wiederherstellung einer VM in Azure
-
-
-### Wiederherstellung einer beliebigen Maschine
-
+### Ü5: Extra-Übung: Wiederherstellung einer beliebigen Maschine
+Zeitaufwand ca. 5 - 10 min.
 
 ## Weiterführende Informationen
 
