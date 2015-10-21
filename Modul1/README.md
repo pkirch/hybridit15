@@ -63,10 +63,13 @@ Für beide VMs wird empfohlen als Vorlage "Windows Server 2012 R2" auszuwählen.
 Zeitaufwand ca. 5 - 10 min.
 
 Diese Übung benötigt PowerShell für Azure und Azure Subscriptions müssen bereits konfiguriert sein. 
-(PowerShell für Azure ist auf den Teilnehmer-Laptops vorinstalliert.)
+PowerShell für Azure ist auf den Teilnehmer-Laptops vorinstalliert. 
+Azure Subscriptions fügen Sie mit dem PowerShell-Befehl *Add-Account* hinzu.
 
 1. [Bereitgestelltes Skript](https://raw.githubusercontent.com/pkirch/hybridit15/master/Modul1/Create-AzureVM.ps1) herunterladen und studieren.
 2. Individuelle Einstellungen im Skript anpassen und ausführen.
+    * Der Subscription-Name muss dem Ihrer Subscription entsprechen. (Zu Ermitteln mit dem PowerShell-Befehl Get-AzureSubscription.)
+    * Die Namen für den Cloud Service und das Speicherkonto müssen global eindeutig sein.
 3. Nach einigen Minuten ist die VM erstellt.
 
 ## Weiterführende Informationen
