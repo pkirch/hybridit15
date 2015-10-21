@@ -12,6 +12,12 @@ und sind daher **kurz und prägnant auf die Inhalte des IT Camps abgestimmt**. A
 eigenen sich diese nicht zum Selbststudium. Weiterführende Informationen sind daher in jedem Modul 
 angegeben. 
 
+**Wichtig:**  
+Alle Teilnehmer teilen sich eine Internetzugang. Daher die Bitte, 
+*"bandbreitensparsam"* zu arbeiten. Das bedeutet, nur relevante Webseiten zu öffnen
+und Downloads durchzuführen. Das betrifft auch die meisten weiterführenden Links, 
+die in diesen Materialien verlinkt sind.
+
 ## Agenda
 
 Uhrzeit	| Thema
@@ -69,7 +75,7 @@ Twitter: http://www.twitter.com/peterkirchner
 
 [Arbeitsmaterialien vom IT Camp Hybrid des letzten Jahres](http://spickzettel.azurewebsites.net/)
 
-[Kurz-Link auf diese Seite](http://aka.ms/hybriditde)
+Kurz-Link auf diese Seite: [aka.ms/hybriditde](http://aka.ms/hybriditde)
 
 [Azure-Startseite](http://www.azure.com)
 
