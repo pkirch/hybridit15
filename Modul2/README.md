@@ -15,6 +15,7 @@
 Alle Übungen können frei gewählt werden, da keine Abhängigkeiten zu anderen Modulen bestehen.
 
 Empfohlene Kombinationen, die zeitlich in den Praxisteil passen:
+
 1. Virtuelles Netzwerk einrichten (Ü1), P2S einrichten (Ü2) und ggf. Web-Server erstellen (Ü5)  
 2. Automatisierung für Server on- und off-prem (Ü3)  
 3. Extra-Übung: Azure Active Directory einrichten und App konfigurieren (Ü4)  
