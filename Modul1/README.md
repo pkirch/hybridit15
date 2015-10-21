@@ -71,7 +71,7 @@ Empfohlener Zeitaufwand ca. 5 - 10 min.*
 
 Diese Übung benötigt PowerShell für Azure. (Ist auf den Teilnehmer-Laptops vorinstalliert.)
 
-1. [Bereitgestelltes Skript](Create-AzureVM.ps1) herunterladen und studieren.
+1. [Bereitgestelltes Skript](https://raw.githubusercontent.com/pkirch/hybridit15/master/Modul1/Create-AzureVM.ps1) herunterladen und studieren.
 2. Individuelle Einstellungen im Skript anpassen und ausführen.
 3. Nach einigen Minuten ist die VM erstellt.
 
