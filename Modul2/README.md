@@ -80,7 +80,9 @@ D.h. ein virtuelles Netzwerk und eine P2S-Verbindung müssen eingerichtet sein.
 	aus Schritt 2 öffnen. 
 
 ### Ü4: Extra-Übung: Ein neues Azure Active Directory erstellen
-Zeitaufwand ca. 5 min.
+Zeitaufwand ca. 5 min.  
+Diese Übung ist empfehlenswert, wenn Sie im Modul 4 die Extra-Übung zur Erstellung 
+Automatisierungsskripten für Azure in Azure Automation durchführen möchten.
 
 Erstellen Sie ein neues Azure Active Directory und legen Sie mindestens ein Test-Benutzerkonto an.
 
