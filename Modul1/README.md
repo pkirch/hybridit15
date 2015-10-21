@@ -10,20 +10,22 @@ Präsentation verfügbar auf GitHub und Docs.
 
 ## Demo
 1. Verwaltungsportale vorstellen
-2. Deployment aus der Gallerie durchführen
+2. Deployment aus Gallerien durchführen
 3. Mit ARM Beispielumgebung erstellen
 
 ## Hands-On
 ### Ü1: Am Portal anmelden und umschauen
 
-Fakultativ. Empfohlen.
+*Fakultativ. Empfohlen.  
+Empfohlener Zeitaufwand ca. 5 min.*
 
 Adressen: http://manage.windowsazure.com oder http://portal.azure.com
 
 Die Verwaltungsportale von Azure öffnen und mit der Navigation vertraut machen.
 
 ### Ü2: ARM-Template deployen
-Obligatorisch.
+*Obligatorisch.  
+Geschätzter Zeitaufwand ca. 5 - 10 min.*
 
 Diese Beispielumgebung kann für spätere Übungen verwendet werden. Z.B.
 * Azure Backup
@@ -48,7 +50,8 @@ Das Deployment kann einige Zeit in Anspruch nehmen. Für diese Übung warten wir
 die Fertigstellung.
 
 ### Ü3: Extra-Übung: Manuelle Erstellung von Ressourcen in beiden Portalen
-Fakultativ. Empfohlen.
+*Fakultativ. Empfohlen.
+Empfohlener Zeitaufwand ca. 5 - 10 min.*
 
 Erfahren, wie sich beide Portale in Verwendung und Funktionalität unterscheiden.  
 Die VMs können als Test- oder Arbeits-VMs für die interaktive Arbeit verwendet werden.
@@ -63,9 +66,12 @@ Für beide VMs wird empfohlen als Vorlage "Windows Server 2012 R2" auszuwählen.
 * Welche Ressourcen wurden im Zuge der VM-Erstellung ebenfalls erstellt?
 
 ### Ü4: Extra-Übung: Classic VM per PowerShell (ASM)
-Fakultativ. Diese Übung benötigt PowerShell für Azure. (Ist auf den Teilnehmer-Laptops vorinstalliert.)
+*Fakultativ. 
+Empfohlener Zeitaufwand ca. 5 - 10 min.*
 
-1. Bereitgestelltes Skript herunterladen und studieren.
+Diese Übung benötigt PowerShell für Azure. (Ist auf den Teilnehmer-Laptops vorinstalliert.)
+
+1. [Bereitgestelltes Skript](Create-AzureVM.ps1) herunterladen und studieren.
 2. Individuelle Einstellungen im Skript anpassen und ausführen.
 3. Nach einigen Minuten ist die VM erstellt.
 
