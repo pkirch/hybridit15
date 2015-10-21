@@ -51,9 +51,9 @@ eigene Zertifikate erstellt werden.
 * makecert ist u.a. Bestandteil von Visual Studio oder den Windows SDKs.
 
 Die vorgefertigten Zertifikate können Sie hier herunterladen:  
-root.pfx  
-root.cer  
-client.pfx
+[root.pfx](https://github.com/pkirch/hybridit15/raw/master/Modul2/root.pfx)  
+[root.cer](https://github.com/pkirch/hybridit15/raw/master/Modul2/root.cer)  
+[client.pfx](https://github.com/pkirch/hybridit15/raw/master/Modul2/client.pfx)
 
 Das Passwort für die PFX-Dateien lautet "Azure ist toll!"
 
