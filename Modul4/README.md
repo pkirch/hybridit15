@@ -1,4 +1,4 @@
-# Modul 4 - Operational Insights & Operation Management Suite (OMS)
+# Modul 4 - Operational Insights & Operation Management Suite
 ## Agenda
 * Einführung in die Operations Management Suite
 * Einführung in Azure Automation
@@ -19,9 +19,11 @@ Grundlegende Schritte zu Wiederholung:
 3. Installation und Registrierung des Hybrid Worker auf einer beliebigen Windows-VM
 4. Ausführen eines Skripts auf dem Hybrid Worker
 
-
-
 ## Weiterführende Informationen
+
+[Azure Automation Übersicht](https://azure.microsoft.com/de-de/services/automation/)  
+[Azure Automation Dokumentation](https://azure.microsoft.com/de-de/documentation/services/automation/)  
+[Azure Automation Preise](https://azure.microsoft.com/de-de/pricing/details/automation/)
 
 [Operation Management Suite Startseite](http://www.microsoft.com/oms/)  
 [Operation Managment Suite Preise](https://www.microsoft.com/de-de/server-cloud/operations-management-suite/pricing.aspx)

@@ -91,10 +91,6 @@ Fakultativ. Diese Übung ist etwas zeitaufwändiger, ca. 20min einplanen.
 [Virtuelle Netzwerke Dokumentation](https://azure.microsoft.com/de-de/documentation/services/virtual-network/)  
 [Virtuelle Netzwerke Preise](https://azure.microsoft.com/de-de/pricing/details/virtual-network/)
 
-[Azure Automation Übersicht](https://azure.microsoft.com/de-de/services/automation/)  
-[Azure Automation Dokumentation](https://azure.microsoft.com/de-de/documentation/services/automation/)  
-[Azure Automation Preise](https://azure.microsoft.com/de-de/pricing/details/automation/)
-
 [Azure Active Directory Übersicht](https://azure.microsoft.com/de-de/services/active-directory/)  
 [Azure Active Directory Dokumentation](https://azure.microsoft.com/de-de/documentation/services/active-directory/)  
 [Azure Active Directory Preise](https://azure.microsoft.com/de-de/pricing/details/active-directory/)
