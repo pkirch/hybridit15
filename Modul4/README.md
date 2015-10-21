@@ -14,9 +14,9 @@
 Fakultativ. Diese Übung ist etwas zeitaufwändiger, ca. 20min einplanen.
 
 Grundlegende Schritte zu Wiederholung:  
-1. Erstellen eines Azure Automation-Kontos
-2. Erstellen eines einfachen PowerShell-Skriptes (Beispiel link hier)
-3. Installation und Registrierung des Hybrid Worker auf einer beliebigen Windows-VM
+1. Erstellen eines Azure Automation-Kontos  
+2. Erstellen eines einfachen PowerShell-Skriptes (Beispiel link hier)  
+3. Installation und Registrierung des Hybrid Worker auf einer beliebigen Windows-VM  
 4. Ausführen eines Skripts auf dem Hybrid Worker
 
 ## Weiterführende Informationen
