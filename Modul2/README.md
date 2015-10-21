@@ -45,10 +45,17 @@ Benötigt ein eingerichtetes virtuelles Netzwerk über ASM. (Vorherige Übung.)
 5. Per P2S (VPN) mit dem virtuellen Netzwerk verbinden.
 6. Optional: erhaltene VPN-Client-IP-Adresse überprüfen.
 
-Es kann ein vorgefertiges Test-Zertifikat verwendet werden oder mit makecert 
-eigene Zertifikate erstellen. 
+Es können die vorgefertigen Test-Zertifikate verwendet werden oder mit makecert 
+eigene Zertifikate erstellt werden. 
 * Erfordert makecert, welches auf den Teilnehmer-Laptops vorinstalliert ist.
 * makecert ist u.a. Bestandteil von Visual Studio oder den Windows SDKs.
+
+Die vorgefertigten Zertifikate können Sie hier herunterladen:  
+root.pfx  
+root.cer  
+client.pfx
+
+Das Passwort für die PFX-Dateien lautet "Azure ist toll!"
 
 **Befehlszeilen für makezert:**  
 Stammzertifikat  
