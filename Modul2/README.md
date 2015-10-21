@@ -9,7 +9,7 @@
 1. Virtuelles Netzwerk einrichten (ASM)
 2. Point-to-Site (P2S) einrichten (ASM)
 3. Azure Active Directory einrichten
-4. Azure AD Web Application Proxy konfigurieren
+4. Azure AD Application Proxy konfigurieren
 
 ## Hands-On
 ### Ü1: Virtuelles Netzwerk einrichten (ASM)
@@ -25,6 +25,9 @@ Die Verwendung virtueller Netzwerke über den Azure Ressource Manager
 wäre auch möglich. Allerdings unterstützt das neue Portal derzeit 
 nicht die Erstellung von P2S-Verbindungen, so dass die Konfiguration über 
 PowerShell notwendig wäre.
+
+Falls Sie vorhaben, Übung 3 durchzuführen, dann erstellen Sie jetzt am besten 
+gleich eine weitere VM in dem neu erstellten virtuellen Netzwerk.
 
 ### Ü2: Point-to-Site (P2S) einrichten (ASM)
 Zeitaufwand ca. 15 min.  
@@ -69,10 +72,11 @@ Zeitaufwand ca. 15 min.
 Diese Übung setzt die ersten beiden Übungen in diesem Modul voraus. 
 D.h. ein virtuelles Netzwerk und eine P2S-Verbindung müssen eingerichtet sein.
 
-1. Eine neue virtuelle Maschine im neu erstellten virtuellen Netzwerk erstellen.
+1. Eine neue virtuelle Maschine im neu erstellten virtuellen Netzwerk erstellen. (Sofern nicht schon in Übung 1 geschehen.)
 	* Keine besonderen Ports für Web für die VM konfigurieren. Der Zugriff 
 	soll später per P2S (VPN) erfolgen.
 2. Bei einer Windows Server-VM die Web Server-Rolle installieren.
+	* Am schnellsten per PowerShell mit *Add-WindowsFeature Web-Server*
 	* Lokal auf der VM prüfen, dass die Startseite vom IIS aufgerufen werden kann. 
 	(http://localhost/)
 4. Von der VM aus der zweiten Übung in das virtuelle Netzwerk per P2S verbinden.
@@ -84,13 +88,23 @@ Zeitaufwand ca. 5 min.
 Diese Übung ist empfehlenswert, wenn Sie im Modul 4 die Extra-Übung zur Erstellung 
 Automatisierungsskripten für Azure in Azure Automation durchführen möchten.
 
-Erstellen Sie ein neues Azure Active Directory und legen Sie mindestens ein Test-Benutzerkonto an.
+Erstellen Sie ein neues Azure Active Directory und legen Sie mindestens ein Test-Benutzerkonto an, 
+dem Sie die Rolle "Global Administrator" zuweisen.
 
-### Ü5: Extra-Übung: Azure AD Web Application Proxy konfigurieren
+Das Passwort des neuen Test-Benutzers muss vor der Benutzung geändert werden.  
+Am besten machen Sie dies in einer InPrivate- bzw. Inkognito-Session.  
+Als Adresse für die Anmeldung können Sie https://myapps.microsoft.com verwenden.  
+Falls Sie vorhaben, auch Übung 5 durchzuführen, können Sie das Fenster gleich geöffnet lassen.  
+**Schreiben Sie sich das neue Passwort für den Test-Benutzer am besten auf.** 
+
+### Ü5: Extra-Übung: Azure AD Application Proxy konfigurieren
 Zeitaufwand ca. 15 - 20 min.
 
-1. Installieren Sie den AAD Web Application Proxy auf einem Windows-Server, auf dem ein Web-Server installiert ist.  
-2. Konfigurieren Sie den neuen Web Application Proxy als App.
+*Achtung:* Diese Übung benötigt Azure Active Directory Premium. 
+Für jedes neue AAD kann ein kostenfreier 30-Tage-Test durchgeführt werden.
+
+1. Installieren Sie den [AAD Application Proxy](https://go.microsoft.com/fwLink/?LinkID=395018&clcid=0x409) auf einem Windows-Server, auf dem ein Web-Server installiert ist.  
+2. Konfigurieren Sie den neuen Application Proxy als Azure AD Application.
 3. Testen Sie den Zugang.
 
 ## Weiterführende Links
