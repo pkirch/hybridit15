@@ -1,4 +1,4 @@
-# Modul 2 - Hybrid IT
+# Modul 2 - Hybride Infrastrukturen
 ## Agenda
 * Virtuelle Netzwerke
 * VPN-Verbindungen
@@ -8,17 +8,12 @@
 ## Demo
 1. Virtuelles Netzwerk einrichten (ASM)
 2. Point-to-Site (P2S) einrichten (ASM)
-3. Automatisierung für Server on- und off-prem
-4. Azure AD einrichten und App konfigurieren
+3. Azure Active Directory einrichten
+4. Azure AD Application konfigurieren
+5. Azure AD Web Application Proxy konfigurieren
 
 ## Hands-On
 Alle Übungen können frei gewählt werden, da keine Abhängigkeiten zu anderen Modulen bestehen.
-
-Empfohlene Kombinationen, die zeitlich in den Praxisteil passen:
-
-1. Virtuelles Netzwerk einrichten (Ü1), P2S einrichten (Ü2) und ggf. Web-Server erstellen (Ü5)  
-2. Automatisierung für Server on- und off-prem (Ü3)  
-3. Extra-Übung: Azure Active Directory einrichten und App konfigurieren (Ü4)  
 
 ### Ü1: Virtuelles Netzwerk einrichten (ASM)
 Fakultativ. Empfohlen.
@@ -63,14 +58,19 @@ makecert -sky exchange -r -n "CN=IT Camp Hybrid IT - P2S-Root" -pe -a sha1 -len 
 Client-Zertifikat  
 makecert.exe -n "CN=IT Camp Hybrid IT - Client" -pe -sky exchange -m 96 -ss My -in "IT Camp Hybrid IT - P2S-Root" -is my -a sha1
 
-### Ü3: Automatisierung für Server on- und off-prem
-Fakultativ. Diese Übung ist etwas zeitaufwändiger, ca. 20min einplanen.
+### Ü3: Extra-Übung: Auf Web-Server im neuen VNet zugreifen
+Fakultativ. Diese Übung setzt die ersten beiden Übungen in diesem Modul voraus. 
+D.h. ein virtuelles Netzwerk und eine P2S-Verbindung müssen eingerichtet sein.
 
-Grundlegende Schritte zu Wiederholung:  
-1. Erstellen eines Azure Automation-Kontos
-2. Erstellen eines einfachen PowerShell-Skriptes (Beispiel link hier)
-3. Installation und Registrierung des Hybrid Worker auf einer beliebigen Windows-VM
-4. Ausführen eines Skripts auf dem Hybrid Worker
+1. Eine neue virtuelle Maschine im neu erstellten virtuellen Netzwerk erstellen.
+	* Keine besonderen Ports für Web für die VM konfigurieren. Der Zugriff 
+	soll später per P2S (VPN) erfolgen.
+2. Bei einer Windows Server-VM die Web Server-Rolle installieren.
+	* Lokal auf der VM prüfen, dass die Startseite vom IIS aufgerufen werden kann. 
+	(http://localhost/)
+4. Von der VM aus der zweiten Übung in das virtuelle Netzwerk per P2S verbinden.
+5. Von der VM aus der zweiten Übung im Browser die Startseite des Web-Servers 
+	aus Schritt 2 öffnen. 
 
 ### Ü4: Extra-Übung: Azure Active Directory einrichten und App konfigurieren
 Fakultativ. Diese Übung ist etwas zeitaufwändiger, ca. 20min einplanen.
@@ -84,20 +84,6 @@ Fakultativ. Diese Übung ist etwas zeitaufwändiger, ca. 20min einplanen.
 	unterstützen noch keine direkte Integration mit AAD. In solchem Fällen 
 	ist die Installation eines Browser-Plug-Ins für den jeweiligen Browser 
 	(verfügbar für Internet Explorer, Firefox oder Chrome) notwendig.
-
-### Ü5: Extra-Übung: Web-Server im neuen VNet erstellen
-Fakultativ. Diese Übung setzt die ersten beiden Übungen in diesem Modul voraus. 
-D.h. ein virtuelles Netzwerk und eine P2S-Verbindung müssen eingerichtet sein.
-
-1. Eine neue virtuelle Maschine im neu erstellten virtuellen Netzwerk erstellen.
-	* Keine besonderen Ports für Web für die VM konfigurieren. Der Zugriff 
-	soll später per P2S (VPN) erfolgen.
-2. Bei einer Windows Server-VM die Web Server-Rolle installieren.
-	* Lokal auf der VM prüfen, dass die Startseite vom IIS aufgerufen werden kann. 
-	(http://localhost/)
-4. Von der VM aus der zweiten Übung in das virtuelle Netzwerk per P2S verbinden.
-5. Von der VM aus der zweiten Übung im Browser die Startseite des Web-Servers 
-	aus Schritt 2 öffnen. 
 
 ## Weiterführende Links
 
