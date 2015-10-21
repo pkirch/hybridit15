@@ -13,7 +13,7 @@
 
 ## Hands-On
 ### Ü1: Virtuelles Netzwerk einrichten (ASM)
-Zeitaufwand ca. 5min.
+Zeitaufwand ca. 5 min.
 
 Im aktuellen Verwaltungsportal (ASM) ein neues virtuelles Netzwerk erstellen.
 
@@ -27,8 +27,10 @@ nicht die Erstellung von P2S-Verbindungen, so dass die Konfiguration über
 PowerShell notwendig wäre.
 
 ### Ü2: Point-to-Site (P2S) einrichten (ASM)
-Zeitaufwand ca. 15min.  
+Zeitaufwand ca. 15 min.  
 Benötigt ein eingerichtetes virtuelles Netzwerk über ASM. (Vorherige Übung.)
+
+*Hinweis:* Site-to-Site (S2S) kann derzeit leider nicht mit der simulierten On-Prem-Umgebung nachgestellt werden.
 
 1. P2S für ein virtuelles Netzwerk konfigurieren.
 	* Aktivieren
@@ -56,7 +58,7 @@ Client-Zertifikat
 makecert.exe -n "CN=IT Camp Hybrid IT - Client" -pe -sky exchange -m 96 -ss My -in "IT Camp Hybrid IT - P2S-Root" -is my -a sha1
 
 ### Ü3: Auf Web-Server im neuen VNet zugreifen
-Zeitaufwand ca. 15min.  
+Zeitaufwand ca. 15 min.  
 Diese Übung setzt die ersten beiden Übungen in diesem Modul voraus. 
 D.h. ein virtuelles Netzwerk und eine P2S-Verbindung müssen eingerichtet sein.
 
