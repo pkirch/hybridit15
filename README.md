@@ -69,19 +69,17 @@ Blog: http://blogs.msdn.com/pkirchner
 Twitter: http://www.twitter.com/peterkirchner
 
 ## Weiterführende Information
+Kurz-Link auf diese Seite: [aka.ms/hybriditde](http://aka.ms/hybriditde)  
 [Alle Präsenationen zur Ansicht oder zum Download](https://docs.com/peterkirchner/7623/it-camps-hybrid-it-2015)
 
-[Übersicht über alle aktuellen IT Camps](http://aka.ms/itcamps2015)
-
+[Übersicht über alle aktuellen IT Camps](http://aka.ms/itcamps2015)  
 [Arbeitsmaterialien vom IT Camp Hybrid des letzten Jahres](http://spickzettel.azurewebsites.net/)
 
-Kurz-Link auf diese Seite: [aka.ms/hybriditde](http://aka.ms/hybriditde)
-
-[Azure-Startseite](http://www.azure.com)
-
-[Aktuelle Verwaltungsseite von Microsoft Azure](http://manage.windowsazure.com)
-
+[Azure-Startseite](http://www.azure.com)  
+[Aktuelle Verwaltungsseite von Microsoft Azure](http://manage.windowsazure.com)  
 [Neue Verwaltungsseite (Vorschau) von Microsoft Azure](http://portal.azure.com)
+
+[Visual Studio Code](https://code.visualstudio.com/)
 
 ## Eigene Weiterarbeit mit den Materialien
 Wenn Sie mit Git bzw. GitHub vertraut sind, dann können Sie auch von diesem Repository 
