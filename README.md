@@ -40,6 +40,9 @@ Alle Module (außer Modul 3) beinhalten überwiegend Zeit, zum selber ausprobier
 der vom Praxisteil gefolgt wird. Jeder Praxisteil startet mit einer kurzen Demonstration, nach der die Teilnehmer viel Zeit 
 zum eigenständigen Arbeiten haben.
 
+Einige Übungen sind als **"Extra-Übungen"** gekenzeichnet. Diese sind für besonders schnelle Teilnehmer angedacht, damit Ihnen nicht langweilig wird. ;-)  
+Fragen zu diesen Übungen bitte auf die Pausen verschieben, damit wir alle Teilnehmern bei den Standard-Übungen unterstützen können.
+
 <img src="images/smart_learn_watch_do.png"/>
 
 ## Anmeldung an den Laptops

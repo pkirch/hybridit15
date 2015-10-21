@@ -1,5 +1,5 @@
 # Modul 2 - Hybride Infrastrukturen
-## Agenda
+## Themen
 * Virtuelle Netzwerke
 * VPN-Verbindungen
 * Azure Automation
@@ -9,14 +9,11 @@
 1. Virtuelles Netzwerk einrichten (ASM)
 2. Point-to-Site (P2S) einrichten (ASM)
 3. Azure Active Directory einrichten
-4. Azure AD Application konfigurieren
-5. Azure AD Web Application Proxy konfigurieren
+4. Azure AD Web Application Proxy konfigurieren
 
 ## Hands-On
-Alle Übungen können frei gewählt werden, da keine Abhängigkeiten zu anderen Modulen bestehen.
-
 ### Ü1: Virtuelles Netzwerk einrichten (ASM)
-Fakultativ. Empfohlen.
+Zeitaufwand ca. 5min.
 
 Im aktuellen Verwaltungsportal (ASM) ein neues virtuelles Netzwerk erstellen.
 
@@ -25,12 +22,12 @@ Im aktuellen Verwaltungsportal (ASM) ein neues virtuelles Netzwerk erstellen.
 
 *Hinweis:*
 Die Verwendung virtueller Netzwerke über den Azure Ressource Manager 
-wären theoretisch auch möglich. Allerdings unterstützt das neue Portal derzeit 
+wäre auch möglich. Allerdings unterstützt das neue Portal derzeit 
 nicht die Erstellung von P2S-Verbindungen, so dass die Konfiguration über 
 PowerShell notwendig wäre.
 
 ### Ü2: Point-to-Site (P2S) einrichten (ASM)
-Fakultativ. Zeitaufwand ca. 15min.  
+Zeitaufwand ca. 15min.  
 Benötigt ein eingerichtetes virtuelles Netzwerk über ASM. (Vorherige Übung.)
 
 1. P2S für ein virtuelles Netzwerk konfigurieren.
@@ -58,8 +55,9 @@ makecert -sky exchange -r -n "CN=IT Camp Hybrid IT - P2S-Root" -pe -a sha1 -len 
 Client-Zertifikat  
 makecert.exe -n "CN=IT Camp Hybrid IT - Client" -pe -sky exchange -m 96 -ss My -in "IT Camp Hybrid IT - P2S-Root" -is my -a sha1
 
-### Ü3: Extra-Übung: Auf Web-Server im neuen VNet zugreifen
-Fakultativ. Diese Übung setzt die ersten beiden Übungen in diesem Modul voraus. 
+### Ü3: Auf Web-Server im neuen VNet zugreifen
+Zeitaufwand ca. 15min.  
+Diese Übung setzt die ersten beiden Übungen in diesem Modul voraus. 
 D.h. ein virtuelles Netzwerk und eine P2S-Verbindung müssen eingerichtet sein.
 
 1. Eine neue virtuelle Maschine im neu erstellten virtuellen Netzwerk erstellen.
@@ -72,18 +70,17 @@ D.h. ein virtuelles Netzwerk und eine P2S-Verbindung müssen eingerichtet sein.
 5. Von der VM aus der zweiten Übung im Browser die Startseite des Web-Servers 
 	aus Schritt 2 öffnen. 
 
-### Ü4: Extra-Übung: Azure Active Directory einrichten und App konfigurieren
-Fakultativ. Diese Übung ist etwas zeitaufwändiger, ca. 20min einplanen.
+### Ü4: Extra-Übung: Ein neues Azure Active Directory erstellen
+Zeitaufwand ca. 5 min.
 
-1. Ein neues Azure Active Directory (AAD) erstellen.
-2. Ein neues Test-Benutzerkonto im neuen AAD erstellen.
-3. Eine neue Anwendung im neuen AAD erstellen.
-4. Mit dem neuen Test-Benutzer (aus Schritt 2) bei der neuen Anwendung (aus Schritt 3) 
-	anmelden.
-	* Einige Anwendungen, die in der Gallerie vom AAD zur Verfügung stehen, 
-	unterstützen noch keine direkte Integration mit AAD. In solchem Fällen 
-	ist die Installation eines Browser-Plug-Ins für den jeweiligen Browser 
-	(verfügbar für Internet Explorer, Firefox oder Chrome) notwendig.
+Erstellen Sie ein neues Azure Active Directory und legen Sie mindestens ein Test-Benutzerkonto an.
+
+### Ü5: Extra-Übung: Azure AD Web Application Proxy konfigurieren
+Zeitaufwand ca. 15 - 20 min.
+
+1. Installieren Sie den AAD Web Application Proxy auf einem Windows-Server, auf dem ein Web-Server installiert ist.  
+2. Konfigurieren Sie den neuen Web Application Proxy als App.
+3. Testen Sie den Zugang.
 
 ## Weiterführende Links
 

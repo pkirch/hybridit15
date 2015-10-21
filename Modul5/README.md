@@ -1,6 +1,5 @@
 # Modul 5 - Desaster Recovery & Backups
-
-## Agenda
+## Themen
 * Desaster Recovery
 * Azure Backup
 

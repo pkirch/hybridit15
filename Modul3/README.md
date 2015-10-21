@@ -1,5 +1,5 @@
 # Modul 3 - Kosten & Sicherheit
-## Agenda
+## Themen
 * Preisübersicht
 * Kostenbeispiele
 * Einführung in Azure-Sicherheit und Zeit für Fragen
