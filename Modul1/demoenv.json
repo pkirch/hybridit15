@@ -40,9 +40,8 @@
         }
     },
     "variables": {
-        "location": "West Europe",
-        "imagePublisher": "MicrosoftWindowsServer",
-        "imageOffer": "WindowsServer",
+        "imagePublisherWinSvr": "MicrosoftWindowsServer",
+        "imageOfferWinSvr": "WindowsServer",
         "vmStorageAccountContainerName": "vhds",
         "vmSize": "Standard_A2"
     },
@@ -51,7 +50,7 @@
             "type": "Microsoft.Storage/storageAccounts",
             "name": "[parameters('newStorageAccountName')]",
             "apiVersion": "2015-05-01-preview",
-            "location": "[variables('location')]",
+            "location": "[resourceGroup().location]",
             "tags": {
                 "displayName": "StorageAccount"
             },
@@ -63,7 +62,7 @@
             "apiVersion": "2015-05-01-preview",
             "type": "Microsoft.Network/publicIPAddresses",
             "name": "pip-cloud-web",
-            "location": "[variables('location')]",
+            "location": "[resourceGroup().location]",
             "tags": {
                 "environment": "IT Camp Cloud",
                 "displayName": "Public IP Address Cloud"
@@ -79,7 +78,7 @@
             "apiVersion": "2015-05-01-preview",
             "type": "Microsoft.Network/publicIPAddresses",
             "name": "pip-onprem-dc",
-            "location": "[variables('location')]",
+            "location": "[resourceGroup().location]",
             "tags": {
                 "environment": "IT Camp On-Prem",
                 "displayName": "Public IP Address On-Prem"
@@ -96,7 +95,7 @@
             "apiVersion": "2015-05-01-preview",
             "type": "Microsoft.Network/virtualNetworks",
             "name": "vnet-cloud",
-            "location": "[variables('location')]",
+            "location": "[resourceGroup().location]",
             "tags": {
                 "displayName": "Virtual Network Cloud",
                 "environment": "IT Camp Cloud"
@@ -121,7 +120,7 @@
             "apiVersion": "2015-05-01-preview",
             "type": "Microsoft.Network/virtualNetworks",
             "name": "vnet-onprem",
-            "location": "[variables('location')]",
+            "location": "[resourceGroup().location]",
             "tags": {
                 "environment": "IT Camp On-Prem",
                 "displayName": "Virtual Network On-Prem"
@@ -138,6 +137,12 @@
                         "properties": {
                             "addressPrefix": "10.0.0.0/24"
                         }
+                    },
+                    {
+                        "name": "SQL",
+                        "properties": {
+                            "addressPrefix": "10.0.1.0/24"
+                        }
                     }
                 ]
             }
@@ -147,7 +152,7 @@
             "apiVersion": "2015-05-01-preview",
             "type": "Microsoft.Network/networkInterfaces",
             "name": "nic-cloud-web",
-            "location": "[variables('location')]",
+            "location": "[resourceGroup().location]",
             "tags": {
                 "environment": "IT Camp Cloud",
                 "displayName": "NIC Cloud Web"
@@ -177,8 +182,36 @@
         {
             "apiVersion": "2015-05-01-preview",
             "type": "Microsoft.Network/networkInterfaces",
+            "name": "nic-cloud-lamp",
+            "location": "[resourceGroup().location]",
+            "tags": {
+                "environment": "IT Camp Cloud",
+                "displayName": "NIC Cloud LAMP"
+            },
+            "dependsOn": [
+                "Microsoft.Network/virtualNetworks/vnet-cloud"
+            ],
+            "properties": {
+                "ipConfigurations": [
+                    {
+                        "name": "ipconfig1",
+                        "properties": {
+                            "privateIPAllocationMethod": "Dynamic",
+                            "subnet": {
+                                "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', 'vnet-cloud'),'/subnets/Web')]"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+
+
+        {
+            "apiVersion": "2015-05-01-preview",
+            "type": "Microsoft.Network/networkInterfaces",
             "name": "nic-onprem-dc",
-            "location": "[variables('location')]",
+            "location": "[resourceGroup().location]",
             "tags": {
                 "environment": "IT Camp On-Prem",
                 "displayName": "NIC On-Prem DC"
@@ -205,12 +238,39 @@
             }
         },
 
+        {
+            "apiVersion": "2015-05-01-preview",
+            "type": "Microsoft.Network/networkInterfaces",
+            "name": "nic-onprem-sql",
+            "location": "[resourceGroup().location]",
+            "tags": {
+                "environment": "IT Camp On-Prem",
+                "displayName": "NIC On-Prem SQL"
+            },
+            "dependsOn": [
+                "Microsoft.Network/virtualNetworks/vnet-onprem"
+            ],
+            "properties": {
+                "ipConfigurations": [
+                    {
+                        "name": "ipconfig1",
+                        "properties": {
+                            "privateIPAllocationMethod": "Dynamic",
+                            "subnet": {
+                                "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', 'vnet-onprem'), '/subnets/SQL')]"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+
 
         {
             "apiVersion": "2015-05-01-preview",
             "type": "Microsoft.Compute/virtualMachines",
             "name": "vmOnpremDC",
-            "location": "[variables('location')]",
+            "location": "[resourceGroup().location]",
             "tags": {
                 "displayName": "VM On-Prem DC",
                 "environment": "IT Camp On-Prem"
@@ -230,8 +290,8 @@
                 },
                 "storageProfile": {
                     "imageReference": {
-                        "publisher": "[variables('imagePublisher')]",
-                        "offer": "[variables('imageOffer')]",
+                        "publisher": "[variables('imagePublisherWinSvr')]",
+                        "offer": "[variables('imageOfferWinSvr')]",
                         "sku": "[parameters('windowsOSVersion')]",
                         "version": "latest"
                     },
@@ -257,10 +317,59 @@
         {
             "apiVersion": "2015-05-01-preview",
             "type": "Microsoft.Compute/virtualMachines",
-            "name": "vmCloudWeb",
-            "location": "[variables('location')]",
+            "name": "vmOnpremSQL",
+            "location": "[resourceGroup().location]",
             "tags": {
-                "displayName": "VM On-Prem Cloud",
+                "displayName": "VM On-Prem SQL",
+                "environment": "IT Camp On-Prem"
+            },
+            "dependsOn": [
+                "[concat('Microsoft.Storage/storageAccounts/', parameters('newStorageAccountName'))]",
+                "Microsoft.Network/networkInterfaces/nic-onprem-sql"
+            ],
+            "properties": {
+                "hardwareProfile": {
+                    "vmSize": "[variables('vmSize')]"
+                },
+                "osProfile": {
+                    "computerName": "dc1",
+                    "adminUsername": "[parameters('adminUsername')]",
+                    "adminPassword": "[parameters('adminPassword')]"
+                },
+                "storageProfile": {
+                    "imageReference": {
+                        "publisher": "MicrosoftSQLServer",
+                        "offer": "SQL2014-WS2012R2",
+                        "sku": "Enterprise",
+                        "version": "latest"
+                    },
+                    "osDisk": {
+                        "name": "osdisk",
+                        "vhd": {
+                            "uri": "[concat('http://',parameters('newStorageAccountName'),'.blob.core.windows.net/',variables('vmStorageAccountContainerName'),'/osdisk-onprem-sql.vhd')]"
+                        },
+                        "caching": "ReadWrite",
+                        "createOption": "FromImage"
+                    }
+                },
+                "networkProfile": {
+                    "networkInterfaces": [
+                        {
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces','nic-onprem-sql')]"
+                        }
+                    ]
+                }
+            }
+        },
+
+
+        {
+            "apiVersion": "2015-05-01-preview",
+            "type": "Microsoft.Compute/virtualMachines",
+            "name": "vmCloudWeb",
+            "location": "[resourceGroup().location]",
+            "tags": {
+                "displayName": "VM Cloud Web",
                 "environment": "IT Camp Cloud"
             },
             "dependsOn": [
@@ -278,8 +387,8 @@
                 },
                 "storageProfile": {
                     "imageReference": {
-                        "publisher": "[variables('imagePublisher')]",
-                        "offer": "[variables('imageOffer')]",
+                        "publisher": "[variables('imagePublisherWinSvr')]",
+                        "offer": "[variables('imageOfferWinSvr')]",
                         "sku": "[parameters('windowsOSVersion')]",
                         "version": "latest"
                     },
@@ -296,6 +405,55 @@
                     "networkInterfaces": [
                         {
                             "id": "[resourceId('Microsoft.Network/networkInterfaces','nic-cloud-web')]"
+                        }
+                    ]
+                }
+            }
+        },
+
+
+        {
+            "apiVersion": "2015-05-01-preview",
+            "type": "Microsoft.Compute/virtualMachines",
+            "name": "vmCloudLAMP",
+            "location": "[resourceGroup().location]",
+            "tags": {
+                "displayName": "VM Cloud LAMP",
+                "environment": "IT Camp Cloud"
+            },
+            "dependsOn": [
+                "[concat('Microsoft.Storage/storageAccounts/', parameters('newStorageAccountName'))]",
+                "Microsoft.Network/networkInterfaces/nic-cloud-lamp"
+            ],
+            "properties": {
+                "hardwareProfile": {
+                    "vmSize": "[variables('vmSize')]"
+                },
+                "osProfile": {
+                    "computerName": "lamp",
+                    "adminUsername": "[parameters('adminUsername')]",
+                    "adminPassword": "[parameters('adminPassword')]"
+                },
+                "storageProfile": {
+                    "imageReference": {
+                        "publisher": "Canonical",
+                        "offer": "UbuntuServer",
+                        "sku": "14.04.3-LTS",
+                        "version": "latest"
+                    },
+                    "osDisk": {
+                        "name": "osdisk",
+                        "vhd": {
+                            "uri": "[concat('http://',parameters('newStorageAccountName'),'.blob.core.windows.net/',variables('vmStorageAccountContainerName'),'/osdisk-cloud-lamp.vhd')]"
+                        },
+                        "caching": "ReadWrite",
+                        "createOption": "FromImage"
+                    }
+                },
+                "networkProfile": {
+                    "networkInterfaces": [
+                        {
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces','nic-cloud-lamp')]"
                         }
                     ]
                 }
