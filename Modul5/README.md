@@ -16,23 +16,38 @@ Desaster Recovery kann derzeit leider nicht mit der simulierten On-Prem-Umgebung
 ### Ü1: Vorbereitung: Azure Backup einrichten.
 Zeitaufwand ca. 5 min.
 
-Azure Backup Vault erstellen.  
-Konfigurieren der Redundanz der gespeicherten Daten.
+Erstellen Sie einen neuen Azure Backup Vault. Dieser wird über das aktuelle Verwaltungsportal (https://manage.windowsazure.com) erstellt.
+
+Name und Region können Sie frei wählen. Zu beachten sind folgende Punkte:
+* Übertragungen innerhalb von Europa werden wahrscheinlich zügiger durchgeführt.
+* Sofern Sie die Übungen 2 und 3 durchführen möchten, muss sich der Backup Vault in der gleichen Region, wie die VMs befinden.
+  
+*Optional:* Konfigurieren der Redundanz der gespeicherten Daten. Diese Option ist unter dem Reiter Configure/Konfigurieren zu finden. 
+Es ist zu beachten, dass diese Einstellung nur vorgenommen werden kann, solange noch keine Backups durchgeführt wurden.
+
+<img src="..\images\backup_storage.png">
 
 ### Ü2: Sicherung einer VM in Azure
-Zeitaufwand ca. 5 min.
+Zeitaufwand ca. 10 min.
 
-### Ü3: Wiederherstellung einer VM in Azure
-Zeitaufwand ca. 5 min.
+Sichern Sie eine VM. Diese Aktion starten Sie im Reiter Registered Items (Registrierte Instanzen). 
+Bei der Auswahl des Typ muss "Azure Virtual Machine" ausgewählt sein.
 
-### Ü4: Extra-Übung: Sicherung einer beliebigen Maschine
+Da der Backup-Vorgang einer ganzen VM mehr als 10 Minuten dauert, können Sie die Wiederherstellung nicht im IT Camp üben. 
+Probieren Sie dies am besten trotzdem noch nach dem IT Camp aus!
+
+### Ü3: Extra-Übung: Sicherung einer beliebigen Maschine
 Zeitaufwand ca. 10 - 15 min.
 
-Installation des Backup Agents.  
-Erstellen eines Backupplans.
+1. Installieren Sie den Backup Agent auf eine beliebige Windows-VM.  
+2. Registrieren Sie den Backup Agent beim Azure Backup Vault.
+3. Erstellen Sie einen Backup-Plan und führen Sie ihn direkt aus.
+	* Zum Testen wählen Sie am besten nur wenige Verzeichnisse und Dateien zum Sichern aus.
 
-### Ü5: Extra-Übung: Wiederherstellung einer beliebigen Maschine
+### Ü4: Extra-Übung: Wiederherstellung einer beliebigen Maschine
 Zeitaufwand ca. 5 - 10 min.
+
+Sie können zum Test die in Übung 3 gesicherten Daten in einem anderen Pfad auf der gleichen VM wiederherstellen.
 
 ## Weiterführende Informationen
 
