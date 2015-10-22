@@ -63,9 +63,9 @@ Vergessen Sie nicht, auf der Windows Server-VM die
 Die Endpunkt-URL und Token finden Sie in den [Schlüssel-Details Ihres Automation-Kontos](../images/automation_account_credentials.png).
 
 cd "C:\Program Files\Microsoft Monitoring Agent\Agent\AzureAutomation\7.2.7037.0\HybridRegistration"  
-Import-Module HybridRegistration.psd1
+Import-Module ./HybridRegistration.psd1
 
-Add-HybridRunbookWorker –Name "ITCamp" -EndPoint <Url> -Token <String>
+Add-HybridRunbookWorker -Name "ITCamp" -EndPoint "Url" -Token "String"
 
 ### Ü3: Skript auf Hybrid Worker ausführen
 Zeitaufwand ca. 10 min.  
