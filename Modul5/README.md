@@ -44,6 +44,8 @@ Zeitaufwand ca. 10 - 15 min.
 3. Erstellen Sie einen Backup-Plan und führen Sie ihn direkt aus.
 	* Zum Testen wählen Sie am besten nur wenige Verzeichnisse und Dateien zum Sichern aus.
 
+Link: https://go.microsoft.com/fwLink/?LinkID=288905&clcid=0x407
+
 ### Ü4: Extra-Übung: Wiederherstellung einer beliebigen Maschine
 Zeitaufwand ca. 5 - 10 min.
 
