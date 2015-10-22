@@ -13,7 +13,7 @@ eigenen sich diese nicht zum Selbststudium. Weiterführende Informationen sind d
 angegeben. 
 
 **Wichtig:**  
-Alle Teilnehmer teilen sich eine Internetzugang. Daher die Bitte, 
+Alle Teilnehmer teilen sich einen Internetzugang. Daher die Bitte, 
 *"bandbreitensparsam"* zu arbeiten. Das bedeutet, nur relevante Webseiten zu öffnen
 und Downloads durchzuführen. Das betrifft auch die meisten weiterführenden Links, 
 die in diesen Materialien verlinkt sind.
