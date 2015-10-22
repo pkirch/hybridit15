@@ -55,7 +55,7 @@ Passwort: Passw0rd!
 
 Microsoft-Konten werden im IT Camp gestellt. Sie haben das Format:
 
-ith-0XX@outlook.com, wobei XX durch zwei Ziffern zu ersetzen sind.
+ith15-0XX@outlook.com, wobei XX durch zwei Ziffern zu ersetzen sind.
 
 Die Passworte werden am Anfang der Veranstaltung kommuniziert. Am besten aufschreiben. ;-)
 
