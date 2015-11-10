@@ -8,7 +8,6 @@
 1. Konto für Azure Automation erstellen  
 2. Hybrid Worker installieren  
 3. Skript auf Hybrid Worker ausführen  
-4. Automatisierungsskripte erstellen
 
 ## Hands-On
 
