@@ -4,7 +4,6 @@
 * Azure Backup
 
 ## Demo
-* Desaster Recovery-Konfiguration vorstellen
 * Azure Backup einrichten
 	* Sicherung einer VM in Azure
 	* Sicherung einer beliebigen Maschine
@@ -33,7 +32,9 @@ Zeitaufwand ca. 10 min.
 Sichern Sie eine VM. Diese Aktion starten Sie im Reiter Registered Items (Registrierte Instanzen). 
 Bei der Auswahl des Typ muss "Azure Virtual Machine" ausgewählt sein.
 
-Da der Backup-Vorgang einer ganzen VM mehr als 10 Minuten dauert, können Sie die Wiederherstellung nicht im IT Camp üben. 
+**Wichtig:** Über diese Funktion können nur VMs gesichert werden, die sich in der gleichen Region wie der Azure Backup Vault befinden. 
+
+Da der Backup-Vorgang einer ganzen VM mehr als 10 Minuten dauert, können Sie die Wiederherstellung nicht im IT Camp üben.  
 Probieren Sie dies am besten trotzdem noch nach dem IT Camp aus!
 
 ### Ü3: Extra-Übung: Sicherung einer beliebigen Maschine
