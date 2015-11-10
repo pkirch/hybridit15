@@ -24,7 +24,7 @@ dem Sie die Rolle "Global Administrator" zuweisen.
 Das Passwort des neuen Test-Benutzers muss vor der Benutzung geändert werden.  
 Am besten machen Sie dies in einer InPrivate- bzw. Inkognito-Session.  
 Als Adresse für die Anmeldung können Sie https://myapps.microsoft.com verwenden.  
-Falls Sie vorhaben, auch Übung 5 durchzuführen, können Sie das Fenster gleich geöffnet lassen.  
+
 **Schreiben Sie sich das neue Passwort für den Test-Benutzer am besten auf.** 
 
 ### Ü2: Übung: Azure AD Application Proxy konfigurieren
