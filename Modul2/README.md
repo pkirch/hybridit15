@@ -99,7 +99,7 @@ Zeitaufwand ca. 15 min.
 Diese Übung setzt die ersten beiden Übungen in diesem Modul voraus. 
 D.h. ein virtuelles Netzwerk und eine P2S-Verbindung müssen eingerichtet sein.
 
-1. Eine neue virtuelle Maschine im neu erstellten virtuellen Netzwerk erstellen. (Sofern nicht schon in Übung 1 geschehen.)
+1. Eine neue virtuelle Maschine im neu erstellten virtuellen Netzwerk erstellen. (Sofern nicht schon in Übung 3 geschehen.)
 	* Keine besonderen Ports für Web für die VM konfigurieren. Der Zugriff 
 	soll später per P2S (VPN) erfolgen.
 2. Bei einer Windows Server-VM die Web Server-Rolle installieren.
