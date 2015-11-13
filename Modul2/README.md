@@ -2,7 +2,6 @@
 ## Themen
 * Virtuelle Netzwerke
 * VPN-Verbindungen
-* Azure Automation
 * Azure Active Directory
 
 ## Demo
