@@ -64,7 +64,7 @@ Zeitaufwand ca. 5 - 10 min.
 
 Diese Übung benötigt PowerShell für Azure und Azure Subscriptions müssen bereits konfiguriert sein. 
 PowerShell für Azure ist auf den Teilnehmer-Laptops vorinstalliert. 
-Azure Subscriptions fügen Sie mit dem PowerShell-Befehl *Add-Account* hinzu.
+Azure Subscriptions fügen Sie mit dem PowerShell-Befehl *Add-AzureAccount* hinzu.
 
 1. [Bereitgestelltes Skript](https://raw.githubusercontent.com/pkirch/hybridit15/master/Modul1/Create-AzureVM.ps1) herunterladen und studieren.
 2. Individuelle Einstellungen im Skript anpassen und ausführen.
