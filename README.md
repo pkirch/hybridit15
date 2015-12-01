@@ -77,7 +77,7 @@ Twitter: http://www.twitter.com/peterkirchner
 
 ## Weiterführende Information
 Kurz-Link auf diese Seite: [aka.ms/hybriditde](http://aka.ms/hybriditde)  
-[Alle Präsenationen zur Ansicht oder zum Download](https://docs.com/peterkirchner/7623/it-camps-hybrid-it-2015)
+[Alle Präsentationen zur Ansicht oder zum Download](https://docs.com/peterkirchner/7623/it-camps-hybrid-it-2015)
 
 [Übersicht über alle aktuellen IT Camps](http://aka.ms/itcamps2015)  
 [Arbeitsmaterialien vom IT Camp Hybrid des letzten Jahres](http://spickzettel.azurewebsites.net/)
