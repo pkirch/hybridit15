@@ -81,6 +81,8 @@ Azure Subscriptions fügen Sie mit dem PowerShell-Befehl *Add-AzureAccount* hinz
 [Azure Resource Manager REST API Reference](https://msdn.microsoft.com/en-us/library/azure/dn790568.aspx)  
 [Erstellen von Azure-Ressourcen-Manager-Vorlagen](https://azure.microsoft.com/de-de/documentation/articles/resource-group-authoring-templates/)
 
+[Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates)
+
 ## Abkürzungen
 
 AAD: Azure Active Directory  
