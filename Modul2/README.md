@@ -117,6 +117,8 @@ D.h. ein virtuelles Netzwerk und eine P2S-Verbindung müssen eingerichtet sein.
 [Virtuelle Netzwerke Dokumentation](https://azure.microsoft.com/de-de/documentation/services/virtual-network/)  
 [Virtuelle Netzwerke Preise](https://azure.microsoft.com/de-de/pricing/details/virtual-network/)
 
+[Informationen zu VPN-Geräten für virtuelle Standort-zu-Standort-Netzwerkverbindungen](https://azure.microsoft.com/de-de/documentation/articles/vpn-gateway-about-vpn-devices/)
+
 [Azure Active Directory Übersicht](https://azure.microsoft.com/de-de/services/active-directory/)  
 [Azure Active Directory Dokumentation](https://azure.microsoft.com/de-de/documentation/services/active-directory/)  
 [Azure Active Directory Preise](https://azure.microsoft.com/de-de/pricing/details/active-directory/)
