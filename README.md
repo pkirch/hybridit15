@@ -51,11 +51,13 @@ An allen Teilnehmer-Laptops können Sie sich mit den folgenden Zugangsdaten anme
 Benutzername: Administrator  
 Passwort: Passw0rd!
 
+Danach Kurz-Link auf diese Seite: [aka.ms/hybriditde](http://aka.ms/hybriditde) 
+
 ## Microsoft-Konten
 
 Microsoft-Konten werden im IT Camp gestellt. Sie haben das Format:
 
-ith15-0XX@outlook.com, wobei XX durch zwei Ziffern zu ersetzen sind.
+ith15-XXX@outlook.com, wobei XXX durch drei Ziffern zu ersetzen sind.
 
 Die Passworte werden am Anfang der Veranstaltung kommuniziert. Am besten aufschreiben. ;-)
 
