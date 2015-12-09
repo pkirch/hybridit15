@@ -86,7 +86,7 @@ Die vorgefertigten Zertifikate können Sie hier herunterladen:
 
 Das Passwort für die PFX-Dateien lautet "Azure ist toll!"
 
-**Befehlszeilen für makezert:**  
+**Befehlszeilen für makecert:**  
 Stammzertifikat  
 makecert -sky exchange -r -n "CN=IT Camp Hybrid IT - P2S-Root" -pe -a sha1 -len 2048 -ss My
 
@@ -120,6 +120,8 @@ D.h. ein virtuelles Netzwerk und eine P2S-Verbindung müssen eingerichtet sein.
 [Azure Active Directory Übersicht](https://azure.microsoft.com/de-de/services/active-directory/)  
 [Azure Active Directory Dokumentation](https://azure.microsoft.com/de-de/documentation/services/active-directory/)  
 [Azure Active Directory Preise](https://azure.microsoft.com/de-de/pricing/details/active-directory/)
+
+[Aktivieren des Azure AD-Anwendungsproxys](https://azure.microsoft.com/de-de/documentation/articles/active-directory-application-proxy-enable/#step-1-enable-application-proxy-in-azure-ad)
 
 [Azure Resource Explorer (Preview)](https://resources.azure.com/)
 
