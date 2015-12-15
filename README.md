@@ -33,8 +33,8 @@ Uhrzeit	| Thema
 *15:30*	| *Zeit für Feedback*
 *15:40*	| *2. Kaffeepause*
 16:00	| [Modul 5: Disaster Recovery & Backups](Modul5/)
-16:30	| [Abschluss, Tipps & Fragen](Abschluss/)
-17:00	| Ende des IT Camps
+17:00	| [Abschluss, Tipps & Fragen](Abschluss/)
+17:30	| Ende des IT Camps
 
 Alle Module (außer Modul 3) beinhalten überwiegend Zeit, zum selber ausprobieren. Am Anfang etwas Theorie zum Verständnis, 
 der vom Praxisteil gefolgt wird. Jeder Praxisteil startet mit einer kurzen Demonstration, nach der die Teilnehmer viel Zeit 
