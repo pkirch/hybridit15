@@ -77,7 +77,7 @@ Twitter: https://twitter.com/seklenk
 
 **Peter Kirchner**  
 E-Mail: peter.kirchner@microsoft.com  
-Blog: http://blogs.msdn.com/pkirchner  
+Blog: http://blogs.msdn.com/b/pkirchner  
 Twitter: http://www.twitter.com/peterkirchner
 
 ## Weiterführende Information
