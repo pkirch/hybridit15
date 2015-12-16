@@ -20,21 +20,24 @@ die in diesen Materialien verlinkt sind.
 
 ## Agenda
 
+Agenda heute mit angepasster Auswahl und Reihenfolge.
+
 Uhrzeit	| Thema
 --------|:---------------------------------
 09:00 	| Vorstellung, Agenda & Organisation 
 10:00	| Vorbereitung
 *10:40*	| *1. Kaffeepause*
 11:00	| [Modul 1: Einführung in Microsoft Azure](Modul1/)
-12:00	| [Modul 2: Hybride Infrastrukturen](Modul2/)
+12:30	| [Modul 3: Kosten & Sicherheit](Modul3/)
 13:00	| *Mittagspause*
-14:00	| [Modul 3: Kosten & Sicherheit](Modul3/)
-14:30	| [Modul 4: Hybride Automatisierung & Verwaltung](Modul4/)
+14:00	| [Modul 2: Hybride Infrastrukturen](Modul2/)
 *15:30*	| *Zeit für Feedback*
 *15:40*	| *2. Kaffeepause*
 16:00	| [Modul 5: Disaster Recovery & Backups](Modul5/)
 17:00	| [Abschluss, Tipps & Fragen](Abschluss/)
 17:30	| Ende des IT Camps
+
+(Alternative: Modul 4: Hybride Automatisierung & Verwaltung](Modul4/)
 
 Alle Module (außer Modul 3) beinhalten überwiegend Zeit, zum selber ausprobieren. Am Anfang etwas Theorie zum Verständnis, 
 der vom Praxisteil gefolgt wird. Jeder Praxisteil startet mit einer kurzen Demonstration, nach der die Teilnehmer viel Zeit 
