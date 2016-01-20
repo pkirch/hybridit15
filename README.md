@@ -20,31 +20,27 @@ die in diesen Materialien verlinkt sind.
 
 ## Agenda
 
-Agenda heute mit angepasster Auswahl und Reihenfolge.
+Uhrzeit			| Thema
+----------------|:---------------------------------
+**09:00** 		| **Vorstellung, Agenda & Organisation** 
+**09:30**		| **Vorbereitung**
+				| Microsoft-Konten und Azure Passes
+**10:00**		| **Einführung in Microsoft Azure ([Inhalte](Intro/))**
+				| ARM, Netzwerke, Azure AD, Automatisierung, Azure Backup, Kosten & Sicherheit
+*10:40 - 11:00*	| *1. Kaffeepause*
+**11:45**		| **Demonstrationen**
+**12:30**		| **Deployment der Demo-Umgebung**
+13:00			| *Mittagspause*
+**14:00**		| **Übungen / Hands On ([Inhalte](HandsOn/))**
+*15:30*			| *Zeit für Feedback*
+*15:40 - 16:00* | *2. Kaffeepause*
+**17:00**		| **Abschluss, Tipps & Fragen ([Inhalte](Abschluss/))**
+17:30			| Ende des IT Camps
 
-Uhrzeit	| Thema
---------|:---------------------------------
-09:00 	| Vorstellung, Agenda & Organisation 
-10:00	| Vorbereitung
-*10:40*	| *1. Kaffeepause*
-11:00	| [Modul 1: Einführung in Microsoft Azure](Modul1/)
-12:30	| [Modul 3: Kosten & Sicherheit](Modul3/)
-13:00	| *Mittagspause*
-14:00	| [Modul 2: Hybride Infrastrukturen](Modul2/)
-*15:30*	| *Zeit für Feedback*
-*15:40*	| *2. Kaffeepause*
-16:00	| [Modul 5: Disaster Recovery & Backups](Modul5/)
-17:00	| [Abschluss, Tipps & Fragen](Abschluss/)
-17:30	| Ende des IT Camps
-
-(Alternative: Modul 4: Hybride Automatisierung & Verwaltung](Modul4/)
-
-Alle Module (außer Modul 3) beinhalten überwiegend Zeit, zum selber ausprobieren. Am Anfang etwas Theorie zum Verständnis, 
-der vom Praxisteil gefolgt wird. Jeder Praxisteil startet mit einer kurzen Demonstration, nach der die Teilnehmer viel Zeit 
-zum eigenständigen Arbeiten haben.
 
 Einige Übungen sind als **"Extra-Übungen"** gekenzeichnet. Diese sind für besonders schnelle Teilnehmer angedacht, damit Ihnen nicht langweilig wird. ;-)  
-Fragen zu diesen Übungen bitte auf die Pausen verschieben, damit wir alle Teilnehmern bei den Standard-Übungen unterstützen können.
+Fragen zu diesen Übungen bitte auf die Pausen verschieben, damit wir alle Teilnehmern bei den Standard-Übungen 
+unterstützen können.
 
 <img src="images/smart_learn_watch_do.png"/>
 
@@ -65,11 +61,6 @@ ith15-XXX@outlook.com, wobei XXX durch drei Ziffern zu ersetzen sind.
 Die Passworte werden am Anfang der Veranstaltung kommuniziert. Am besten aufschreiben. ;-)
 
 ## Kontakte
-**Benedict Berger**  
-E-Mail: Benedict.Berger@Elanity.de  
-Blog: http://blog.benedict-berger.de/   
-Twitter: https://twitter.com/Benedict_Berger  
-
 **Sebastian Klenk**  
 E-Mail: Sebastian.Klenk@microsoft.com  
 Blog: http://blogs.technet.com/b/sebastianklenk/  
@@ -98,3 +89,7 @@ Wenn Sie mit Git bzw. GitHub vertraut sind, dann können Sie auch von diesem Rep
 einen Fork erstellen und Ihre eigenen Änderungen an den Materialien vornehmen und sind 
 trotzdem jederzeit in der Lage, die neusten Änderungen aus diesem Repository in Ihr eigenes 
 einfließen zu lassen.  
+
+## Archiv
+
+[Modul: Hybride Automatisierung & Verwaltung](Archive/Automation/)
