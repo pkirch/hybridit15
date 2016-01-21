@@ -25,13 +25,12 @@ Uhrzeit			| Thema
 **09:00** 		| **Vorstellung, Agenda & Organisation** 
 **09:30**		| **Vorbereitung**
 				| Microsoft-Konten und Azure Passes
-**10:00**		| **Einführung in Microsoft Azure ([Inhalte](Intro/))**
-				| ARM, Netzwerke, Azure AD, Automatisierung, Azure Backup, Kosten & Sicherheit
+**10:00**		| **Einführung in Microsoft Azure ([Informationen](Intro/))**
 *10:40 - 11:00*	| *1. Kaffeepause*
 **11:45**		| **Demonstrationen**
 **12:30**		| **Deployment der Demo-Umgebung**
 13:00			| *Mittagspause*
-**14:00**		| **Übungen / Hands On ([Inhalte](HandsOn/))**
+**14:00**		| **Übungen / Hands On ([Übersicht](HandsOn/))**
 *15:30*			| *Zeit für Feedback*
 *15:40 - 16:00* | *2. Kaffeepause*
 **17:00**		| **Abschluss, Tipps & Fragen ([Informationen](closing.md))**
