@@ -34,7 +34,7 @@ Uhrzeit			| Thema
 **14:00**		| **Übungen / Hands On ([Inhalte](HandsOn/))**
 *15:30*			| *Zeit für Feedback*
 *15:40 - 16:00* | *2. Kaffeepause*
-**17:00**		| **Abschluss, Tipps & Fragen ([Inhalte](Abschluss/))**
+**17:00**		| **Abschluss, Tipps & Fragen ([Informationen](closing.md))**
 17:30			| Ende des IT Camps
 
 
