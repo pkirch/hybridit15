@@ -55,7 +55,7 @@ Danach Kurz-Link auf diese Seite: [aka.ms/hybriditde](http://aka.ms/hybriditde)
 
 Microsoft-Konten werden im IT Camp gestellt. Sie haben das Format:
 
-ith15-XXX@outlook.com, wobei XXX durch drei Ziffern zu ersetzen sind.
+ith16-XXX@outlook.com, wobei XXX durch drei Ziffern zu ersetzen sind.
 
 Die Passworte werden am Anfang der Veranstaltung kommuniziert. Am besten aufschreiben. ;-)
 
