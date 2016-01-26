@@ -20,26 +20,22 @@ die in diesen Materialien verlinkt sind.
 
 ## Agenda
 
-Agenda heute mit angepasster Auswahl und Reihenfolge.
-
 Uhrzeit	| Thema
 --------|:---------------------------------
 09:00 	| Vorstellung, Agenda & Organisation 
 10:00	| Vorbereitung
 *10:40*	| *1. Kaffeepause*
-11:00	| [Modul 1: Einführung in Microsoft Azure](Modul1/)
-12:30	| [Modul 3: Kosten & Sicherheit](Modul3/)
+11:00	| [Einführung in Microsoft Azure](Modul1/)
+12:30	| [Kosten & Sicherheit](Modul3/)
 13:00	| *Mittagspause*
-14:00	| [Modul 2: Hybride Infrastrukturen](Modul2/)
+14:00	| [Hybride Infrastrukturen](Modul2/)
 *15:30*	| *Zeit für Feedback*
 *15:40*	| *2. Kaffeepause*
-16:00	| [Modul 5: Disaster Recovery & Backups](Modul5/)
+16:00	| [Disaster Recovery & Backups](Modul5/)
 17:00	| [Abschluss, Tipps & Fragen](Abschluss/)
 17:30	| Ende des IT Camps
 
-(Alternative: Modul 4: Hybride Automatisierung & Verwaltung](Modul4/)
-
-Alle Module (außer Modul 3) beinhalten überwiegend Zeit, zum selber ausprobieren. Am Anfang etwas Theorie zum Verständnis, 
+Fast alle Module beinhalten überwiegend Zeit, zum selber ausprobieren. Am Anfang etwas Theorie zum Verständnis, 
 der vom Praxisteil gefolgt wird. Jeder Praxisteil startet mit einer kurzen Demonstration, nach der die Teilnehmer viel Zeit 
 zum eigenständigen Arbeiten haben.
 
@@ -60,15 +56,14 @@ Danach Kurz-Link auf diese Seite: [aka.ms/hybriditde](http://aka.ms/hybriditde)
 
 Microsoft-Konten werden im IT Camp gestellt. Sie haben das Format:
 
-ith15-XXX@outlook.com, wobei XXX durch drei Ziffern zu ersetzen sind.
+ith16-XXX@outlook.com, wobei XXX durch drei Ziffern zu ersetzen sind.
 
 Die Passworte werden am Anfang der Veranstaltung kommuniziert. Am besten aufschreiben. ;-)
 
 ## Kontakte
-**Benedict Berger**  
-E-Mail: Benedict.Berger@Elanity.de  
-Blog: http://blog.benedict-berger.de/   
-Twitter: https://twitter.com/Benedict_Berger  
+**Jan-Henrik Damaschke**  
+E-Mail: Jan-Henrik.Damaschke@msg-services.de  
+Twitter: https://twitter.com/JanDamaschke  
 
 **Sebastian Klenk**  
 E-Mail: Sebastian.Klenk@microsoft.com  
@@ -98,3 +93,7 @@ Wenn Sie mit Git bzw. GitHub vertraut sind, dann können Sie auch von diesem Rep
 einen Fork erstellen und Ihre eigenen Änderungen an den Materialien vornehmen und sind 
 trotzdem jederzeit in der Lage, die neusten Änderungen aus diesem Repository in Ihr eigenes 
 einfließen zu lassen.  
+
+## Archiv
+
+(Hybride Automatisierung & Verwaltung](Modul4/)
