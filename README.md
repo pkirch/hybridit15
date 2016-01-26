@@ -31,7 +31,7 @@ Uhrzeit	| Thema
 14:00	| [Hybride Infrastrukturen](Modul2/)
 *15:30*	| *Zeit für Feedback*
 *15:40*	| *2. Kaffeepause*
-16:00	| [Disaster Recovery & Backups](Modul5/)
+16:00	| [Desaster Recovery & Backups](Modul5/)
 17:00	| [Abschluss, Tipps & Fragen](Abschluss/)
 17:30	| Ende des IT Camps
 
