@@ -30,8 +30,8 @@ Uhrzeit	| Thema
 14:00	| [Kosten & Sicherheit](Modul3/)
 14:30	| [Hybride Infrastrukturen](Modul2/)
 *15:15 - 15:45*	| *2. Kaffeepause & Zeit für Feedback*
-16:15	| [Desaster Recovery & Backups](Modul5/)
-17:00	| [Abschluss, Tipps & Fragen](Abschluss/)
+16:45	| [Desaster Recovery & Backups](Modul5/)
+17:20	| [Abschluss, Tipps & Fragen](Abschluss/)
 17:30	| Ende des IT Camps
 
 Fast alle Module beinhalten überwiegend Zeit, zum selber ausprobieren. Am Anfang etwas Theorie zum Verständnis, 
