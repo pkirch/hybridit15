@@ -54,7 +54,7 @@
             "properties": {
                 "publicIPAllocationMethod": "Dynamic",
                 "dnsSettings": {
-                    "domainNameLabel": "[concat(parameters('dnsNameForPublicIP'), '-cloud')]"
+                    "domainNameLabel": "[concat(variables('dnsNameForPublicIP'), '-cloud')]"
                 }
             }
         },
@@ -70,7 +70,7 @@
             "properties": {
                 "publicIPAllocationMethod": "Dynamic",
                 "dnsSettings": {
-                    "domainNameLabel": "[concat(parameters('dnsNameForPublicIP'), '-onprem')]"
+                    "domainNameLabel": "[concat(variables('dnsNameForPublicIP'), '-onprem')]"
                 }
             }
         },
