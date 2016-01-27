@@ -276,7 +276,7 @@
                     "imageReference": {
                         "publisher": "[variables('imagePublisherWinSvr')]",
                         "offer": "[variables('imageOfferWinSvr')]",
-                        "sku": "[parameters('windowsOSVersion')]",
+                        "sku": "[variables('windowsOSVersion')]",
                         "version": "latest"
                     },
                     "osDisk": {
@@ -373,7 +373,7 @@
                     "imageReference": {
                         "publisher": "[variables('imagePublisherWinSvr')]",
                         "offer": "[variables('imageOfferWinSvr')]",
-                        "sku": "[parameters('windowsOSVersion')]",
+                        "sku": "[variables('windowsOSVersion')]",
                         "version": "latest"
                     },
                     "osDisk": {
