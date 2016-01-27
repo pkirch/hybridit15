@@ -96,4 +96,4 @@ einfließen zu lassen.
 
 ## Archiv
 
-(Hybride Automatisierung & Verwaltung](Modul4/)
+[Hybride Automatisierung & Verwaltung](Modul4/)
