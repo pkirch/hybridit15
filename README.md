@@ -22,10 +22,10 @@ die in diesen Materialien verlinkt sind.
 
 Uhrzeit	| Thema
 --------|:---------------------------------
-09:00 	| Vorstellung, Agenda & Organisation 
-10:00	| Vorbereitung
-10:30	| [Einführung in Microsoft Azure](Modul1/)
-*11:00 - 11:30*	| *1. Kaffeepause*
+09:30 	| Vorstellung, Agenda & Organisation 
+10:30	| Vorbereitung
+*11:00 - 11:20*	| *1. Kaffeepause*
+11:20	| [Einführung in Microsoft Azure](Modul1/)
 13:00	| *Mittagspause*
 14:00	| [Kosten & Sicherheit](Modul3/)
 14:30	| [Hybride Infrastrukturen](Modul2/)
