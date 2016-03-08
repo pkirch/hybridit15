@@ -27,9 +27,9 @@ Uhrzeit	| Thema
 *11:00 - 11:20*	| *1. Kaffeepause*
 11:20	| [Einführung in Microsoft Azure](Modul1/)
 13:00	| *Mittagspause*
-14:00	| [Kosten & Sicherheit](Modul3/)
-14:30	| [Hybride Infrastrukturen](Modul2/)
-*15:15 - 15:45*	| *2. Kaffeepause & Zeit für Feedback*
+14:30	| [Kosten & Sicherheit](Modul3/)
+*15:00 - 15:20*	| *2. Kaffeepause & Zeit für Feedback*
+15:20	| [Hybride Infrastrukturen](Modul2/)
 16:45	| [Desaster Recovery & Backups](Modul5/)
 17:20	| [Abschluss, Tipps & Fragen](Abschluss/)
 17:30	| Ende des IT Camps
