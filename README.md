@@ -46,7 +46,7 @@ Fragen zu diesen Übungen bitte auf die Pausen verschieben, damit wir alle Teiln
 ## Anmeldung an den Laptops
 
 An allen Teilnehmer-Laptops können Sie sich mit den folgenden Zugangsdaten anmelden:  
-Benutzername: Administrator  
+Benutzername: Admin  
 Passwort: Passw0rd!
 
 Danach Kurz-Link auf diese Seite: [aka.ms/hybriditde](http://aka.ms/hybriditde) 
