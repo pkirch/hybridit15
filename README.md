@@ -60,9 +60,10 @@ ith16-XXX@outlook.com, wobei XXX durch drei Ziffern zu ersetzen sind.
 Die Passworte werden am Anfang der Veranstaltung kommuniziert. Am besten aufschreiben. ;-)
 
 ## Kontakte
-**Jan-Henrik Damaschke**  
-E-Mail: Jan-Henrik.Damaschke@msg-services.de  
-Twitter: https://twitter.com/JanDamaschke  
+**Eric Berg**  
+E-Mail: Eric.Berg@comparex.de  
+Blog: http://www.ericberg.de
+Twitter: https://twitter.com/ericberg_de 
 
 **Sebastian Klenk**  
 E-Mail: Sebastian.Klenk@microsoft.com  
