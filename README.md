@@ -62,7 +62,7 @@ Die Passworte werden am Anfang der Veranstaltung kommuniziert. Am besten aufschr
 ## Kontakte
 **Eric Berg**  
 E-Mail: Eric.Berg@comparex.de  
-Blog: http://www.ericberg.de
+Blog: http://www.ericberg.de  
 Twitter: https://twitter.com/ericberg_de 
 
 **Sebastian Klenk**  
