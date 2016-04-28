@@ -83,8 +83,8 @@ Kurz-Link auf diese Seite: [aka.ms/hybriditde](http://aka.ms/hybriditde)
 [Arbeitsmaterialien vom IT Camp Hybrid des letzten Jahres](http://spickzettel.azurewebsites.net/)
 
 [Azure-Startseite](http://www.azure.com)  
-[Aktuelle Verwaltungsseite von Microsoft Azure](http://manage.windowsazure.com)  
-[Neue Verwaltungsseite (Vorschau) von Microsoft Azure](http://portal.azure.com)
+[Alte Verwaltungsseite von Microsoft Azure](http://manage.windowsazure.com)  
+[Neue Verwaltungsseite von Microsoft Azure](http://portal.azure.com)
 
 [Visual Studio Code](https://code.visualstudio.com/)
 
