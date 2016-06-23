@@ -18,6 +18,17 @@ Alle Teilnehmer teilen sich einen Internetzugang. Daher die Bitte,
 und Downloads durchzuführen. Das betrifft auch die meisten weiterführenden Links, 
 die in diesen Materialien verlinkt sind.
 
+## Agenda vom Live Event am 23.06.16
+Live Event: https://channel9.msdn.com/Events/community-germany/IT-Innovation-Series-Virtuelles-IT-Camp-zu-Hybrid-IT 
+
+Uhrzeit	| Thema
+--------|:---------------------------------
+14:10 	| Einführung in Microsoft Azure 
+15:50   | Kostenberechnung  
+16:10   | Hybride Infrastrukturen
+17:00   | Azure Backup 
+17:30   | Tipps zum Abschluss 
+
 ## Agenda
 
 Uhrzeit	| Thema
